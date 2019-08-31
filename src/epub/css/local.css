@@ -19,13 +19,11 @@
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p + p,
 [epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] + p,
-[epub|type~="z3998:song"] + p{
+[epub|type~="z3998:poem"] + p{
 	text-indent: 0;
 }
 
